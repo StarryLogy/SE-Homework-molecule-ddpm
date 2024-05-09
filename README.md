@@ -6,8 +6,9 @@ Unet.py负责定义U-Net模型的网络结构，其中包括用于帮助提取�
 trainer.py负责实现数据集的处理和模型训练的具体过程；  
 utils.py负责提供工具类函数，例如将图像转换为指定的图像类型和对图像像素进行归一化处理等。  
 2、数据集为医药小分子二维结构数据集，借助DDPM生成了一系列跟数据集类似的小分子二维结构图。  
-数据集放于denoising_diffusion_pytorch/data文件夹中。跑了200000个steps的实验结果图放于denoising_diffusion_pytorch/results文件夹中  
-由于做了第一个改动，除了参考项目git地址的使用方式外还可以按以下的示例代码运行：  
+数据集放于denoising_diffusion_pytorch/data文件夹中；  
+运行了200000个steps的实验结果图放于denoising_diffusion_pytorch/results文件夹中。  
+由于做了第一个改动，所以除了参考项目git地址的使用方式外还可以按以下的示例代码运行：  
 
 ```python
 from Unet import Unet
